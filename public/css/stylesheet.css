@@ -24,7 +24,7 @@
 }
 
 body {
-    background-image: url("../img/UI.png");
+    background-image: url("../img/fondo2.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .navbar{
-    background-color: #f65c78 !important;
+    background-color: #39383874 !important;
     font-family: signikabold;
     font-size: 1.5em;
 }
@@ -47,11 +47,11 @@ h1,h2,h3,h4,h5,h6{
 .navbar-brand{
     font-family: remachine_script_personal_uRg;
     font-size: 2em;
-    color: #ffd271 !important;
+    color: #040404 !important;
 }
 
 .nav-link{
-    color: #ffd271 !important;
+    color: #000000 !important;
 }
 
 .fa-user, .bg-yellow {

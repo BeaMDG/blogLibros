@@ -16,7 +16,7 @@ return [
     '_profiler_router' => [['token'], ['_controller' => 'web_profiler.controller.router::panelAction'], [], [['text', '/router'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], [], []],
     '_profiler_exception' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::body'], [], [['text', '/exception'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], [], []],
     '_profiler_exception_css' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::stylesheet'], [], [['text', '/exception.css'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], [], []],
-    'app_dashboard' => [[], ['_controller' => 'App\\Controller\\DashboardController::index'], [], [['text', '/app_dashboard']], [], [], []],
+    'app_dashboard' => [[], ['_controller' => 'App\\Controller\\DashboardController::index'], [], [['text', '/']], [], [], []],
     'registrar-posts' => [[], ['_controller' => 'App\\Controller\\PostsController::index'], [], [['text', '/registrar-posts']], [], [], []],
     'Ver-Post' => [['id'], ['_controller' => 'App\\Controller\\PostsController::VerPost'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/post']], [], [], []],
     'MisPosts' => [[], ['_controller' => 'App\\Controller\\PostsController::MisPost'], [], [['text', '/mis-posts']], [], [], []],

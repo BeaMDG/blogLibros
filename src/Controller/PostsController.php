@@ -66,6 +66,7 @@ class PostsController extends AbstractController
         $em = $doctrine->getManager();
         $comentario = new Comentarios();
         $post = $em->getRepository(Posts::class)->find($id);
+        
 
         return $this->render('posts/verPost.html.twig',['post'=>$post]);
     }

@@ -1,0 +1,7 @@
+{
+    "publicPath": "/build",
+    "manifestKeyPrefix": "build/",
+    "watch": true,
+    "webpackConfig": "./webpack.config.js"
+  }
+  
